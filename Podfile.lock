@@ -1,0 +1,16 @@
+PODS:
+  - Alamofire (2.0.0)
+  - SwiftForms (1.0)
+  - SwiftyJSON (2.2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 2.0)
+  - SwiftForms
+  - SwiftyJSON (>= 2.2.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 2f13548b29d25a58ecd91c9225fb51493e2b782b
+  SwiftForms: b16bf2978e6eb6617bc9f438322a1daa6c3d2dbd
+  SwiftyJSON: ae2d0a3d68025d136602a33c4ee215091ced3e33
+
+COCOAPODS: 0.38.2
