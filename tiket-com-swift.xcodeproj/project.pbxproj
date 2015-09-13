@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFE9CEFC1BA6357500EEEB12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9CEFB1BA6357500EEEB12 /* AppDelegate.swift */; };
+		FFE9CEFF1BA6357500EEEB12 /* tiket_com_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFE9CEFD1BA6357500EEEB12 /* tiket_com_swift.xcdatamodeld */; };
+		FFE9CF011BA6357500EEEB12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9CF001BA6357500EEEB12 /* ViewController.swift */; };
+		FFE9CF041BA6357500EEEB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE9CF021BA6357500EEEB12 /* Main.storyboard */; };
+		FFE9CF061BA6357500EEEB12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE9CF051BA6357500EEEB12 /* Images.xcassets */; };
+		FFE9CF091BA6357500EEEB12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE9CF071BA6357500EEEB12 /* LaunchScreen.xib */; };
+		FFE9CF151BA6357500EEEB12 /* tiket_com_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9CF141BA6357500EEEB12 /* tiket_com_swiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFE9CF0F1BA6357500EEEB12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE9CEEE1BA6357400EEEB12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE9CEF51BA6357400EEEB12;
+			remoteInfo = "tiket-com-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFE9CEF61BA6357500EEEB12 /* tiket-com-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tiket-com-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE9CEFA1BA6357500EEEB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE9CEFB1BA6357500EEEB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFE9CEFE1BA6357500EEEB12 /* tiket_com_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tiket_com_swift.xcdatamodel; sourceTree = "<group>"; };
+		FFE9CF001BA6357500EEEB12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFE9CF031BA6357500EEEB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFE9CF051BA6357500EEEB12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFE9CF081BA6357500EEEB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFE9CF0E1BA6357500EEEB12 /* tiket-com-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tiket-com-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE9CF131BA6357500EEEB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE9CF141BA6357500EEEB12 /* tiket_com_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiket_com_swiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE9CEF31BA6357400EEEB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE9CF0B1BA6357500EEEB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFE9CEED1BA6357400EEEB12 = {
+			isa = PBXGroup;
+			children = (
+				FFE9CEF81BA6357500EEEB12 /* tiket-com-swift */,
+				FFE9CF111BA6357500EEEB12 /* tiket-com-swiftTests */,
+				FFE9CEF71BA6357500EEEB12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE9CEF71BA6357500EEEB12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE9CEF61BA6357500EEEB12 /* tiket-com-swift.app */,
+				FFE9CF0E1BA6357500EEEB12 /* tiket-com-swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE9CEF81BA6357500EEEB12 /* tiket-com-swift */ = {
+			isa = PBXGroup;
+			children = (
+				FFE9CEFB1BA6357500EEEB12 /* AppDelegate.swift */,
+				FFE9CF001BA6357500EEEB12 /* ViewController.swift */,
+				FFE9CF021BA6357500EEEB12 /* Main.storyboard */,
+				FFE9CF051BA6357500EEEB12 /* Images.xcassets */,
+				FFE9CF071BA6357500EEEB12 /* LaunchScreen.xib */,
+				FFE9CEFD1BA6357500EEEB12 /* tiket_com_swift.xcdatamodeld */,
+				FFE9CEF91BA6357500EEEB12 /* Supporting Files */,
+			);
+			path = "tiket-com-swift";
+			sourceTree = "<group>";
+		};
+		FFE9CEF91BA6357500EEEB12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFE9CEFA1BA6357500EEEB12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFE9CF111BA6357500EEEB12 /* tiket-com-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE9CF141BA6357500EEEB12 /* tiket_com_swiftTests.swift */,
+				FFE9CF121BA6357500EEEB12 /* Supporting Files */,
+			);
+			path = "tiket-com-swiftTests";
+			sourceTree = "<group>";
+		};
+		FFE9CF121BA6357500EEEB12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFE9CF131BA6357500EEEB12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE9CEF51BA6357400EEEB12 /* tiket-com-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE9CF181BA6357500EEEB12 /* Build configuration list for PBXNativeTarget "tiket-com-swift" */;
+			buildPhases = (
+				FFE9CEF21BA6357400EEEB12 /* Sources */,
+				FFE9CEF31BA6357400EEEB12 /* Frameworks */,
+				FFE9CEF41BA6357400EEEB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tiket-com-swift";
+			productName = "tiket-com-swift";
+			productReference = FFE9CEF61BA6357500EEEB12 /* tiket-com-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFE9CF0D1BA6357500EEEB12 /* tiket-com-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE9CF1B1BA6357500EEEB12 /* Build configuration list for PBXNativeTarget "tiket-com-swiftTests" */;
+			buildPhases = (
+				FFE9CF0A1BA6357500EEEB12 /* Sources */,
+				FFE9CF0B1BA6357500EEEB12 /* Frameworks */,
+				FFE9CF0C1BA6357500EEEB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE9CF101BA6357500EEEB12 /* PBXTargetDependency */,
+			);
+			name = "tiket-com-swiftTests";
+			productName = "tiket-com-swiftTests";
+			productReference = FFE9CF0E1BA6357500EEEB12 /* tiket-com-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE9CEEE1BA6357400EEEB12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Achmad Fatoni";
+				TargetAttributes = {
+					FFE9CEF51BA6357400EEEB12 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FFE9CF0D1BA6357500EEEB12 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FFE9CEF51BA6357400EEEB12;
+					};
+				};
+			};
+			buildConfigurationList = FFE9CEF11BA6357400EEEB12 /* Build configuration list for PBXProject "tiket-com-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFE9CEED1BA6357400EEEB12;
+			productRefGroup = FFE9CEF71BA6357500EEEB12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE9CEF51BA6357400EEEB12 /* tiket-com-swift */,
+				FFE9CF0D1BA6357500EEEB12 /* tiket-com-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE9CEF41BA6357400EEEB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE9CF041BA6357500EEEB12 /* Main.storyboard in Resources */,
+				FFE9CF091BA6357500EEEB12 /* LaunchScreen.xib in Resources */,
+				FFE9CF061BA6357500EEEB12 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE9CF0C1BA6357500EEEB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE9CEF21BA6357400EEEB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE9CF011BA6357500EEEB12 /* ViewController.swift in Sources */,
+				FFE9CEFC1BA6357500EEEB12 /* AppDelegate.swift in Sources */,
+				FFE9CEFF1BA6357500EEEB12 /* tiket_com_swift.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE9CF0A1BA6357500EEEB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE9CF151BA6357500EEEB12 /* tiket_com_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFE9CF101BA6357500EEEB12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE9CEF51BA6357400EEEB12 /* tiket-com-swift */;
+			targetProxy = FFE9CF0F1BA6357500EEEB12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFE9CF021BA6357500EEEB12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE9CF031BA6357500EEEB12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFE9CF071BA6357500EEEB12 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE9CF081BA6357500EEEB12 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE9CF161BA6357500EEEB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFE9CF171BA6357500EEEB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE9CF191BA6357500EEEB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tiket-com-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFE9CF1A1BA6357500EEEB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tiket-com-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFE9CF1C1BA6357500EEEB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tiket-com-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiket-com-swift.app/tiket-com-swift";
+			};
+			name = Debug;
+		};
+		FFE9CF1D1BA6357500EEEB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tiket-com-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiket-com-swift.app/tiket-com-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE9CEF11BA6357400EEEB12 /* Build configuration list for PBXProject "tiket-com-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE9CF161BA6357500EEEB12 /* Debug */,
+				FFE9CF171BA6357500EEEB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE9CF181BA6357500EEEB12 /* Build configuration list for PBXNativeTarget "tiket-com-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE9CF191BA6357500EEEB12 /* Debug */,
+				FFE9CF1A1BA6357500EEEB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFE9CF1B1BA6357500EEEB12 /* Build configuration list for PBXNativeTarget "tiket-com-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE9CF1C1BA6357500EEEB12 /* Debug */,
+				FFE9CF1D1BA6357500EEEB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FFE9CEFD1BA6357500EEEB12 /* tiket_com_swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FFE9CEFE1BA6357500EEEB12 /* tiket_com_swift.xcdatamodel */,
+			);
+			currentVersion = FFE9CEFE1BA6357500EEEB12 /* tiket_com_swift.xcdatamodel */;
+			path = tiket_com_swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FFE9CEEE1BA6357400EEEB12 /* Project object */;
+}
