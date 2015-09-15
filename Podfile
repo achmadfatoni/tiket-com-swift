@@ -5,8 +5,9 @@ use_frameworks!
 
 target 'tiket-com-swift' do
 	pod 'SwiftForms'
-	pod 'Alamofire', '~> 2.0'
+	pod 'Alamofire', '~> 1.3'
 	pod 'SwiftyJSON', '>= 2.2.1'
+	pod 'SwiftHTTP', '~> 0.9.4'
 end
 
 target 'tiket-com-swiftTests' do
